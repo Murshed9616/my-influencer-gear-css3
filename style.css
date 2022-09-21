@@ -1,0 +1,338 @@
+.container {
+    background-color: lavenderblush;
+}
+
+/* <!-----------------------
+header start 
+------------------------> */
+.header-container {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headline {
+    font-size: 25px;
+}
+
+.header-home {
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* <!-----------------------
+     header end
+    ------------------> */
+
+/*..................
+...... body.......
+..............  */
+.body-container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/* <!---------------
+    Preebook start
+----------------> */
+.preebook-container {
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+}
+
+.preebook {
+
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.preebook {
+    width: 100%;
+}
+
+.preebook-discription {
+    width: 50%;
+    margin-top: 30px;
+}
+
+.preebook-headline {
+    font-size: 75px;
+    margin-bottom: 0px;
+}
+
+.preenook-paragrap {
+    font-size: 30px;
+}
+
+.preebook-button {
+    font-size: 28px;
+    color: white;
+    border: 1px;
+    border-radius: 30px;
+
+    width: 270px;
+    height: 60px;
+    padding: 0px 0px;
+    background-color: rebeccapurple;
+
+}
+
+.images {
+    width: 50%;
+}
+
+.image {
+    background-color: rgb(218, 208, 218);
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    margin-left: 220px;
+}
+
+/* <!---------------
+    Preebook end
+----------------> */
+
+
+/* <!--------------=-------
+logo section start
+---------------------> */
+.company-logo {
+    justify-items: center;
+    align-items: center;
+
+}
+
+.logo-line {
+    border: solid 1px lightgray;
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    width: 100%;
+}
+
+.image-logo {
+    width: 8%;
+
+}
+
+/* <!--------------=-------
+logo section end
+---------------------> */
+
+
+.popular-collection {
+    margin-top: 150px;
+}
+
+.popular-headline {
+    font-size: 40px;
+    text-align: center;
+}
+
+.all-collection {
+    margin-left: 90px;
+    margin-right: 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 0px;
+}
+
+.all-collection .box img {
+    width: 390px;
+    height: 350px;
+}
+
+.box {
+    width: 390px;
+    height: 620px;
+    border-radius: 15px;
+    /* box-shadow: 4px 4px 4px 4px gray; */
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: white;
+    margin-bottom: 30px;
+
+}
+
+.box h1 {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.box h5 {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.star-rate {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-top: 15px;
+}
+
+.fa-star {
+    font-size: 18px;
+}
+
+.fa-star.filled {
+    color: #ffc014;
+}
+
+.fa-star.empty {
+    color: #858072;
+}
+
+.rate {
+    margin-right: 220px;
+    font-size: 18px;
+}
+
+.paragrap p {
+    font-size: 25px;
+}
+
+.See-more {
+    margin-left: 1360px;
+    margin-top: 0px;
+}
+
+.See-more h5 {
+    font-size: 25px;
+}
+
+.see-headline {
+    margin-top: 0px;
+    color: tomato;
+    ;
+}
+
+/* <!----------------
+Popular Collection section end 
+-------------------------------> */
+
+/* <!-- -----------------------
+Featured products section  
+-------------------------> */
+
+.featured-products-container {
+    margin-top: 120px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 150px;
+
+}
+
+.featured-products {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.featured-image {
+    width: 45%;
+}
+
+.featured-image img {
+    width: 520px;
+    height: 350px;
+}
+
+.featured-info {
+    width: 55%;
+}
+
+.featured-headline {
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+
+.featured-paragrap {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.join-now {
+    font-size: 32px;
+    border: 1px;
+    width: 250px;
+    height: 70px;
+    background-color: rebeccapurple;
+    color: white;
+}
+
+/* <!-- -----------------------
+Featured products section end  
+-------------------------> */
+
+
+/* <!-------------------
+footer start 
+-----------------------> */
+.footer-container {
+    margin-bottom: 50px;
+    width: 100%;
+    height: 280px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.footer-decription {
+    padding-top: 20px;
+}
+
+.footer-headline {
+    font-size: 40px;
+}
+
+.footer-info {
+    font-size: 20px;
+}
+
+.last-line {
+    border: solid 6px black;
+}
+
+
+
+
+/* <!-------------------
+footer end
+-----------------------> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*..................
+...... body.......
+..............  */
